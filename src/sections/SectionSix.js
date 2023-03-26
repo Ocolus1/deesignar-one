@@ -117,7 +117,7 @@ function SectionSix({ isMobile }) {
 							}}
 						>
 							<Image
-								// fluid={true}
+								fluid={true}
 								src={SideFour}
 								className="mb-2"
 							/>
