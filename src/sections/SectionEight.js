@@ -7,7 +7,7 @@ function SectionEight({ isMobile }) {
 		<section
 			style={{
 				paddingTop: isMobile ? '5rem' : '11.25rem',
-				paddingBottom: '20rem',
+				paddingBottom: isMobile ? '14rem' : '20rem',
 			}}
 		>
 			<Container>
@@ -91,7 +91,10 @@ function SectionEight({ isMobile }) {
 									<h5 className="fw-bold">
 										Racheal turnstile
 									</h5>
-									<h6 className='mb-3' style={{ fontSize: '80%' }}>
+									<h6
+										className="mb-3"
+										style={{ fontSize: '80%' }}
+									>
 										HEAD OF OPERATIONS
 									</h6>
 								</div>
